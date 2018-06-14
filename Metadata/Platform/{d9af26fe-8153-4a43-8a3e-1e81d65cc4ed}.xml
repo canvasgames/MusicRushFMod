@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="Platform" id="{d9af26fe-8153-4a43-8a3e-1e81d65cc4ed}">
+        <property name="hardwareType">
+            <value>1</value>
+        </property>
+        <property name="name">
+            <value>Mobile</value>
+        </property>
+        <property name="subDirectory">
+            <value>Mobile</value>
+        </property>
+        <property name="speakerFormat">
+            <value>1</value>
+        </property>
+    </object>
+</objects>
