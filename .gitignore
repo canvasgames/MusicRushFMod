@@ -1,1 +1,9 @@
-.user
+/.unsaved
+/.user
+/Profile
+/Build
+.recycle
+.cache
+.restore
+.fsbcache
+*.cache
