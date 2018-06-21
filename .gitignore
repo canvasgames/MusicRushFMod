@@ -1,7 +1,5 @@
-/.unsaved
+.*
 /.user
-/Profile
-/Build
 .recycle
 .cache
 .restore
