@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="AudioFile" id="{00a13d56-5da0-433e-9c41-a2bd55a5ba0d}">
+    <object class="AudioFile" id="{9e9cf821-5f02-4688-9aa8-d60a31d436cb}">
         <property name="assetPath">
-            <value>Testes/Grito1.ogg</value>
+            <value>Soundtrack/Classic/music_classic_layer01_loop.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
@@ -11,7 +14,7 @@
             <value>2</value>
         </property>
         <property name="length">
-            <value>1.1869387755102041</value>
+            <value>17.77780045351474</value>
         </property>
         <relationship name="masterAssetFolder">
             <destination>{6d5cf533-07ee-4502-af2c-8df404ecf0c9}</destination>
