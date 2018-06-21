@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{825eb438-785a-4a73-b776-819c2ad7cb72}">
+        <property name="assetPath">
+            <value>Soundtrack/Electronic/Daft_Loop_2.ogg</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>15.359999999999999</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{6d5cf533-07ee-4502-af2c-8df404ecf0c9}</destination>
+        </relationship>
+    </object>
+</objects>
