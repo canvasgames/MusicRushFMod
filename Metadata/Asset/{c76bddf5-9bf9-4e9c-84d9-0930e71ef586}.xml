@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EncodableAsset" id="{c76bddf5-9bf9-4e9c-84d9-0930e71ef586}">
+        <property name="assetPath">
+            <value>Soundtrack/Anime_Shounen/</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{6d5cf533-07ee-4502-af2c-8df404ecf0c9}</destination>
+        </relationship>
+    </object>
+</objects>
