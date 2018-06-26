@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{00a13d56-5da0-433e-9c41-a2bd55a5ba0d}">
         <property name="assetPath">
-            <value>Testes/Grito1.ogg</value>
+            <value>SFX/voice_music_rush.ogg</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
