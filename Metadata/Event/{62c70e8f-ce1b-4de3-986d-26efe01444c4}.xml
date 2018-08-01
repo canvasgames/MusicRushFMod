@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{62c70e8f-ce1b-4de3-986d-26efe01444c4}">
         <property name="name">
-            <value>sfx_ui_score_raising</value>
+            <value>sfx_ui_game_over_score_raising</value>
         </property>
         <property name="outputFormat">
             <value>1</value>

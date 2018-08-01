@@ -5,7 +5,7 @@
             <value>sfx_character_collect_coin</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>0</value>
         </property>
         <relationship name="folder">
             <destination>{773fc726-a929-4ac4-8c9d-f3d2e1aadb73}</destination>
@@ -60,7 +60,7 @@
     <object class="MarkerTrack" id="{65ce26fb-a9be-404a-baf7-6bec5f991acb}"/>
     <object class="GroupTrack" id="{f255fc88-19c9-4ecf-99d1-be71c3377f27}">
         <relationship name="modules">
-            <destination>{c5e52b96-8a12-4fd6-af1e-62ac742e8bc6}</destination>
+            <destination>{54641d12-453a-4fcf-abf0-e3ce14b6862d}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{b453b135-71a2-44ce-8961-a21428d23fa2}</destination>
@@ -68,7 +68,7 @@
     </object>
     <object class="Timeline" id="{d923d8a8-acdc-4382-98a4-c395c1527d6b}">
         <relationship name="modules">
-            <destination>{c5e52b96-8a12-4fd6-af1e-62ac742e8bc6}</destination>
+            <destination>{54641d12-453a-4fcf-abf0-e3ce14b6862d}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{6d069649-7588-4f0c-97f8-9ee7e658c457}">
@@ -88,12 +88,12 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{77f0cb6b-f5b4-4650-90a0-e32f28ff639a}"/>
-    <object class="SingleSound" id="{c5e52b96-8a12-4fd6-af1e-62ac742e8bc6}">
+    <object class="SingleSound" id="{54641d12-453a-4fcf-abf0-e3ce14b6862d}">
         <property name="length">
-            <value>0.86204081632653062</value>
+            <value>0.1438548752834467</value>
         </property>
         <relationship name="audioFile">
-            <destination>{c86bed1e-e5bc-489a-9719-e9f16b7a46b9}</destination>
+            <destination>{b22c6e86-7672-4737-be7e-d51d8b138f65}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{b453b135-71a2-44ce-8961-a21428d23fa2}">
