@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{90750b32-b4c7-4ae0-83b7-3f589fa777f1}">
+        <property name="name">
+            <value>spin</value>
+        </property>
+        <relationship name="folder">
+            <destination>{2133a23e-9641-4257-97d2-8d135fb6117d}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{287b43c3-cbaf-43d7-9eb1-20f82d5e9501}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{287b43c3-cbaf-43d7-9eb1-20f82d5e9501}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="seekSpeed">
+            <value>2</value>
+        </property>
+        <property name="seekSpeedDescending">
+            <value>0.5</value>
+        </property>
+        <property name="seekSpeedAsymmetric">
+            <value>true</value>
+        </property>
+    </object>
+</objects>

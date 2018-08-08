@@ -37,6 +37,7 @@
         </relationship>
         <relationship name="parameters">
             <destination>{fff07144-4ae2-4753-b97c-d0f095ddee40}</destination>
+            <destination>{1c92d720-7a62-4b58-9a6b-004508074a39}</destination>
         </relationship>
         <relationship name="banks">
             <destination>{e2d08757-7777-4fb5-acab-2943dfff610f}</destination>
@@ -48,6 +49,9 @@
         </relationship>
     </object>
     <object class="MasterTrack" id="{0b29112c-f581-4c6a-9070-129c8b04cc02}">
+        <relationship name="automationTracks">
+            <destination>{bfc0ed2f-6649-4336-a7f1-b46aafcb49c9}</destination>
+        </relationship>
         <relationship name="mixerGroup">
             <destination>{545ab895-c621-43cc-a113-435c122c8802}</destination>
         </relationship>
@@ -130,7 +134,15 @@
             <destination>{daffbd18-932c-4ef8-9cb1-58b244cbcbc4}</destination>
         </relationship>
     </object>
+    <object class="ParameterProxy" id="{1c92d720-7a62-4b58-9a6b-004508074a39}">
+        <relationship name="preset">
+            <destination>{287b43c3-cbaf-43d7-9eb1-20f82d5e9501}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerMaster" id="{545ab895-c621-43cc-a113-435c122c8802}">
+        <relationship name="automators">
+            <destination>{bc51fbab-1312-4d17-8d18-78fcb080d87c}</destination>
+        </relationship>
         <relationship name="modulators">
             <destination>{a53cf796-6736-4196-bb17-235735f8e3e9}</destination>
         </relationship>
@@ -142,6 +154,11 @@
         </relationship>
         <relationship name="mixer">
             <destination>{40f4dca8-4834-49fb-850c-c388178f6039}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationTrack" id="{bfc0ed2f-6649-4336-a7f1-b46aafcb49c9}">
+        <relationship name="automator">
+            <destination>{bc51fbab-1312-4d17-8d18-78fcb080d87c}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{7bc84668-ea5b-4fe4-9167-944f473338c6}">
@@ -303,6 +320,14 @@
             <destination>{c8b91ad9-16f3-4e14-9ee3-5bca9abac740}</destination>
         </relationship>
     </object>
+    <object class="Automator" id="{bc51fbab-1312-4d17-8d18-78fcb080d87c}">
+        <property name="nameOfPropertyBeingAutomated">
+            <value>pitch</value>
+        </property>
+        <relationship name="automationCurves">
+            <destination>{eeb7115a-eca2-4188-8c29-d229b2aaf1ae}</destination>
+        </relationship>
+    </object>
     <object class="ADSRModulator" id="{a53cf796-6736-4196-bb17-235735f8e3e9}">
         <property name="nameOfPropertyBeingModulated">
             <value>volume</value>
@@ -404,6 +429,15 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{df2b5cfc-9bcb-467e-86c3-5eb1705d027f}"/>
+    <object class="AutomationCurve" id="{eeb7115a-eca2-4188-8c29-d229b2aaf1ae}">
+        <relationship name="parameter">
+            <destination>{287b43c3-cbaf-43d7-9eb1-20f82d5e9501}</destination>
+        </relationship>
+        <relationship name="automationPoints">
+            <destination>{a309f897-d5f1-4818-8fe0-d6819ed4b63c}</destination>
+            <destination>{88a76be2-614e-49a9-ad30-9197737618e8}</destination>
+        </relationship>
+    </object>
     <object class="MixerBusFader" id="{f5cf1844-58db-4278-aea6-7440fc104285}"/>
     <object class="MixerBusFader" id="{c54ccb96-a957-431f-b67a-ad8e756f9804}"/>
     <object class="LimiterEffect" id="{712a64d1-5a64-47c7-ac7d-e0c414c5e866}"/>
@@ -411,4 +445,20 @@
     <object class="MixerBusFader" id="{647497c0-48e9-419d-8016-b30d74fdb92c}"/>
     <object class="MixerBusFader" id="{67379952-e210-4d1f-852e-53e018265f46}"/>
     <object class="MixerBusFader" id="{a14e36ea-935e-44fb-9b49-966e691653fa}"/>
+    <object class="AutomationPoint" id="{a309f897-d5f1-4818-8fe0-d6819ed4b63c}">
+        <property name="position">
+            <value>0.006269592476489028</value>
+        </property>
+        <property name="value">
+            <value>0</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{88a76be2-614e-49a9-ad30-9197737618e8}">
+        <property name="position">
+            <value>1</value>
+        </property>
+        <property name="value">
+            <value>10</value>
+        </property>
+    </object>
 </objects>
