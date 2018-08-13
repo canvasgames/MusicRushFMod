@@ -169,7 +169,7 @@
     <object class="MixerBusPanner" id="{9ef0b38d-6943-4133-9d49-deb0c508b023}"/>
     <object class="SingleSound" id="{c84e1178-9e37-4cbb-857c-dbd5247c6c8c}">
         <property name="length">
-            <value>15.359999999999999</value>
+            <value>19.199999999999999</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{12ddbff3-cdfe-47aa-9397-5703c02579db}</destination>
@@ -194,7 +194,7 @@
     </object>
     <object class="SingleSound" id="{0c0c243f-d380-480a-9abc-c8fab8a9f989}">
         <property name="length">
-            <value>15.359999999999999</value>
+            <value>19.199999999999999</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{4d29c3c6-e2b3-41a0-a2dc-50f9b86b5b85}</destination>
@@ -219,7 +219,7 @@
     </object>
     <object class="SingleSound" id="{eb4d8b67-adbb-4240-b5c4-a1918a8cdce0}">
         <property name="length">
-            <value>15.359999999999999</value>
+            <value>19.199999999999999</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{09444bd1-c66b-45a3-8a0b-0d0f66cde862}</destination>
@@ -244,7 +244,7 @@
     </object>
     <object class="SingleSound" id="{85d08279-0dea-48a2-a577-d160818554b8}">
         <property name="length">
-            <value>15.359999999999999</value>
+            <value>19.199999999999999</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{e5f15820-c7f9-4747-b573-d23044a1ff05}</destination>
@@ -269,7 +269,7 @@
     </object>
     <object class="SingleSound" id="{6269756f-1e39-4f7e-bf87-691e8bfc4f12}">
         <property name="length">
-            <value>15.359999999999999</value>
+            <value>19.199999999999999</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{8be2ee4d-d839-4ce8-b6b1-8be0c0d071dd}</destination>
@@ -311,7 +311,7 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>15.359999999999999</value>
+            <value>19.199999999999999</value>
         </property>
         <relationship name="timeline">
             <destination>{b9c0e637-c67c-4d69-b221-0f74781b1316}</destination>
