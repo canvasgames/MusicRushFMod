@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="EncodableAsset" id="{d3a5a3dc-9776-48ed-8456-60453d973dcd}">
+    <object class="EncodableAsset" id="{ca6d0071-edbd-405e-a8ef-b4f48bf5c3ff}">
         <property name="assetPath">
-            <value>Soundtrack/Latina v2/</value>
+            <value>Soundtrack/Latin/</value>
         </property>
         <relationship name="masterAssetFolder">
             <destination>{6d5cf533-07ee-4502-af2c-8df404ecf0c9}</destination>
