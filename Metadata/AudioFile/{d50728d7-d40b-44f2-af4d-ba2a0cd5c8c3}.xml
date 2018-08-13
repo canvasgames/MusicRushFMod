@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{d50728d7-d40b-44f2-af4d-ba2a0cd5c8c3}">
         <property name="assetPath">
-            <value>music_latin_layer05.aif</value>
+            <value>Soundtrack/Latin/music_latin_layer05.aif</value>
         </property>
         <property name="isStreaming">
             <value>true</value>
