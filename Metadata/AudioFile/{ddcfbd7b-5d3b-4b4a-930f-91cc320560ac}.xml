@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="AudioFile" id="{2f9b41bc-2a2e-4e80-9d5a-ee8f90842b7f}">
+    <object class="AudioFile" id="{ddcfbd7b-5d3b-4b4a-930f-91cc320560ac}">
         <property name="assetPath">
-            <value>SFX/Jump1.ogg</value>
+            <value>SFX/sfx_reward_event.wav</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
         <property name="channelCount">
-            <value>2</value>
+            <value>1</value>
         </property>
         <property name="length">
-            <value>0.21888888888888888</value>
+            <value>1.1000000000000001</value>
         </property>
         <relationship name="masterAssetFolder">
             <destination>{6d5cf533-07ee-4502-af2c-8df404ecf0c9}</destination>
