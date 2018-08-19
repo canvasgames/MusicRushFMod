@@ -5,7 +5,7 @@
             <value>sfx_character_wall_collided</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>0</value>
         </property>
         <relationship name="folder">
             <destination>{773fc726-a929-4ac4-8c9d-f3d2e1aadb73}</destination>
@@ -62,18 +62,11 @@
     <object class="EventAutomatableProperties" id="{43a7670b-6fe0-4c06-969d-9c54d5c941fa}"/>
     <object class="MarkerTrack" id="{30ba703e-9f76-4224-91d9-6568e322cab4}"/>
     <object class="GroupTrack" id="{e14d3444-ab86-40a0-830e-4da3df525379}">
-        <relationship name="modules">
-            <destination>{f2a5bcef-8b2d-4a75-868e-e42131e6e573}</destination>
-        </relationship>
         <relationship name="mixerGroup">
             <destination>{ffddf9c4-db3f-4bb4-bb95-a1c66417aabb}</destination>
         </relationship>
     </object>
-    <object class="Timeline" id="{0dec8e69-1f8b-4c62-bade-36938e5fd76f}">
-        <relationship name="modules">
-            <destination>{f2a5bcef-8b2d-4a75-868e-e42131e6e573}</destination>
-        </relationship>
-    </object>
+    <object class="Timeline" id="{0dec8e69-1f8b-4c62-bade-36938e5fd76f}"/>
     <object class="EventMixerMaster" id="{67f59886-2869-490e-b15f-0dfa15681f25}">
         <relationship name="effectChain">
             <destination>{03b54a30-de5c-4162-9552-f864832eb2b6}</destination>
@@ -91,14 +84,6 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{1d643986-849b-4465-a545-d75ed4f022e7}"/>
-    <object class="SingleSound" id="{f2a5bcef-8b2d-4a75-868e-e42131e6e573}">
-        <property name="length">
-            <value>0.88816326530612244</value>
-        </property>
-        <relationship name="audioFile">
-            <destination>{c86bed1e-e5bc-489a-9719-e9f16b7a46b9}</destination>
-        </relationship>
-    </object>
     <object class="EventMixerGroup" id="{ffddf9c4-db3f-4bb4-bb95-a1c66417aabb}">
         <property name="name">
             <value>Audio 1</value>

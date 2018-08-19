@@ -5,10 +5,10 @@
             <value>sfx_trap_hidden_saw_appear</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>0</value>
         </property>
         <relationship name="folder">
-            <destination>{773fc726-a929-4ac4-8c9d-f3d2e1aadb73}</destination>
+            <destination>{f7a9c4ce-826a-4819-b599-e7fcc2240d71}</destination>
         </relationship>
         <relationship name="mixer">
             <destination>{5bbdde7a-49dd-462d-81e5-f88ff0f452b5}</destination>
@@ -62,18 +62,11 @@
     <object class="EventAutomatableProperties" id="{8e292a2d-e95f-4642-bbf2-361027ad293f}"/>
     <object class="MarkerTrack" id="{07619031-f871-4643-a89c-7089553428bd}"/>
     <object class="GroupTrack" id="{cbb9c985-04c5-4913-8880-7a68a88ad90a}">
-        <relationship name="modules">
-            <destination>{dd8f9167-23b1-4062-81e4-54bd3a71d34d}</destination>
-        </relationship>
         <relationship name="mixerGroup">
             <destination>{c69d8d5d-4a8c-4edd-a5f9-fe9b255f1003}</destination>
         </relationship>
     </object>
-    <object class="Timeline" id="{8ef59b0d-9019-4534-9921-a019861f3c94}">
-        <relationship name="modules">
-            <destination>{dd8f9167-23b1-4062-81e4-54bd3a71d34d}</destination>
-        </relationship>
-    </object>
+    <object class="Timeline" id="{8ef59b0d-9019-4534-9921-a019861f3c94}"/>
     <object class="EventMixerMaster" id="{fb89df3a-9ac2-4ed2-adb4-438d903250da}">
         <relationship name="effectChain">
             <destination>{9f19119b-58a7-404c-9d4d-0e75dee09bd7}</destination>
@@ -91,14 +84,6 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{8b53c523-6673-43bc-b4ae-92a8fe04c30b}"/>
-    <object class="SingleSound" id="{dd8f9167-23b1-4062-81e4-54bd3a71d34d}">
-        <property name="length">
-            <value>0.88816326530612244</value>
-        </property>
-        <relationship name="audioFile">
-            <destination>{c86bed1e-e5bc-489a-9719-e9f16b7a46b9}</destination>
-        </relationship>
-    </object>
     <object class="EventMixerGroup" id="{c69d8d5d-4a8c-4edd-a5f9-fe9b255f1003}">
         <property name="name">
             <value>Audio 1</value>

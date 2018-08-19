@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{8d929923-d7dd-4ac4-95b7-d95646761d38}">
         <property name="assetPath">
-            <value>SFX/atari_boom5.wav</value>
+            <value>SFX/sfx_explosion.wav</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>

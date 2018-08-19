@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="AudioFile" id="{5726aa6c-8dbf-4e7b-9b49-9d4671fc34a1}">
+    <object class="AudioFile" id="{8527166f-459c-4387-a900-126a21a774d2}">
         <property name="assetPath">
-            <value>SFX/intro_music_rush.ogg</value>
+            <value>SFX/sfx_jump.wav</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
         <property name="channelCount">
-            <value>2</value>
+            <value>1</value>
         </property>
         <property name="length">
-            <value>3.7278231292517008</value>
+            <value>0.21888888888888888</value>
         </property>
         <relationship name="masterAssetFolder">
             <destination>{6d5cf533-07ee-4502-af2c-8df404ecf0c9}</destination>

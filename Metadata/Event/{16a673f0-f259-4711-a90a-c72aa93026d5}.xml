@@ -5,7 +5,7 @@
             <value>sfx_ui_spin_disk_reward</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>0</value>
         </property>
         <relationship name="folder">
             <destination>{773fc726-a929-4ac4-8c9d-f3d2e1aadb73}</destination>
@@ -96,7 +96,7 @@
             <value>1.1755102040816328</value>
         </property>
         <relationship name="audioFile">
-            <destination>{c5718cfd-585f-4b67-988e-afc6a8f34a47}</destination>
+            <destination>{ddcfbd7b-5d3b-4b4a-930f-91cc320560ac}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{81df2e66-f31f-4989-9c12-10d3b94910ae}">
