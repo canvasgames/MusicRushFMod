@@ -168,8 +168,17 @@
     </object>
     <object class="MixerBusPanner" id="{76c271d8-06e4-4831-9df9-c6b3d00f595d}"/>
     <object class="SingleSound" id="{2e52c3be-1fac-4a3d-a878-6c6951f04ed8}">
+        <property name="isAsync">
+            <value>true</value>
+        </property>
+        <property name="isCutoff">
+            <value>true</value>
+        </property>
         <property name="length">
             <value>15.359999999999999</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{739e2c5e-d351-4e78-a849-589d10e57777}</destination>
@@ -193,8 +202,17 @@
         </relationship>
     </object>
     <object class="SingleSound" id="{cfdbe1b8-71d6-42bd-aaf2-5e3a904dbeb1}">
+        <property name="isAsync">
+            <value>true</value>
+        </property>
+        <property name="isCutoff">
+            <value>true</value>
+        </property>
         <property name="length">
             <value>15.359999999999999</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{1421f7f9-7d20-4b12-a7bb-0657064fdac4}</destination>
@@ -218,8 +236,17 @@
         </relationship>
     </object>
     <object class="SingleSound" id="{55f3438f-3db2-49c1-bdd1-317620124a6d}">
+        <property name="isAsync">
+            <value>true</value>
+        </property>
+        <property name="isCutoff">
+            <value>true</value>
+        </property>
         <property name="length">
             <value>15.359999999999999</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{75e84661-d55d-4d61-8cc6-c6250aed5c34}</destination>
@@ -243,8 +270,17 @@
         </relationship>
     </object>
     <object class="SingleSound" id="{1e9cdffc-892c-44ce-8087-92ee67b69ef7}">
+        <property name="isAsync">
+            <value>true</value>
+        </property>
+        <property name="isCutoff">
+            <value>true</value>
+        </property>
         <property name="length">
             <value>15.359999999999999</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{1c19f614-5b55-453b-bd4d-2d4713329487}</destination>
@@ -268,8 +304,17 @@
         </relationship>
     </object>
     <object class="SingleSound" id="{0ca8e702-92ea-4e94-99b8-a529d07eb4ef}">
+        <property name="isAsync">
+            <value>true</value>
+        </property>
+        <property name="isCutoff">
+            <value>true</value>
+        </property>
         <property name="length">
             <value>15.359999999999999</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{ba972eb8-b1eb-47df-835a-12d440e4ce88}</destination>
