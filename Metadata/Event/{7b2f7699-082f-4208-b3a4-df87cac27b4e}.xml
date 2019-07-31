@@ -63,7 +63,7 @@
     <object class="MarkerTrack" id="{c9ae19e6-2bec-443c-918e-dbcb0ad4ec80}"/>
     <object class="GroupTrack" id="{6452f5d5-7967-4f8b-ad99-d2e3a6ebedbc}">
         <relationship name="modules">
-            <destination>{83415efe-3048-4a62-baab-2c5200ffd1bb}</destination>
+            <destination>{b7f844f0-e066-4042-9fbc-019236f72ebc}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{af3ced5e-a89b-47ad-be40-e4abc814e826}</destination>
@@ -71,7 +71,7 @@
     </object>
     <object class="Timeline" id="{6f947d6f-c489-460c-9c19-3aae06c52190}">
         <relationship name="modules">
-            <destination>{83415efe-3048-4a62-baab-2c5200ffd1bb}</destination>
+            <destination>{b7f844f0-e066-4042-9fbc-019236f72ebc}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{2280932d-6a92-441f-a2a7-cc5303fdba8b}">
@@ -91,20 +91,23 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{98edfee1-2fc4-41eb-be9a-7f94379dfa85}"/>
-    <object class="SingleSound" id="{83415efe-3048-4a62-baab-2c5200ffd1bb}">
-        <property name="isAsync">
-            <value>true</value>
-        </property>
+    <object class="SingleSound" id="{b7f844f0-e066-4042-9fbc-019236f72ebc}">
         <property name="length">
-            <value>3.5526757369614512</value>
+            <value>0.79981859410430844</value>
+        </property>
+        <property name="color">
+            <value>Green</value>
         </property>
         <relationship name="audioFile">
-            <destination>{9d02fdb6-3075-44c2-b0f9-eef6a8a7f84e}</destination>
+            <destination>{584a8c0b-29cf-4430-87a3-684f420bac52}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{af3ced5e-a89b-47ad-be40-e4abc814e826}">
+        <property name="color">
+            <value>Green</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Button Pressed</value>
         </property>
         <relationship name="effectChain">
             <destination>{a1791ae5-97c4-4ec4-baa7-bdb498f0b1d9}</destination>

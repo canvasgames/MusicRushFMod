@@ -98,13 +98,19 @@
         <property name="length">
             <value>3.7278231292517008</value>
         </property>
+        <property name="color">
+            <value>Yellow</value>
+        </property>
         <relationship name="audioFile">
             <destination>{af5a44b5-a893-46d9-a980-d36aa8c20dfa}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{e51299e0-6e44-46df-8e13-d6aa21dab4e2}">
+        <property name="color">
+            <value>Yellow</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Music Rush</value>
         </property>
         <relationship name="effectChain">
             <destination>{843412ad-40a1-437c-8220-9f9bac48f595}</destination>

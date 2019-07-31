@@ -63,7 +63,7 @@
     <object class="MarkerTrack" id="{c9f01ba4-07f4-44f3-80fe-797b0c1d75e3}"/>
     <object class="GroupTrack" id="{fadf7619-90d2-4ea3-a6ef-083ec8791124}">
         <relationship name="modules">
-            <destination>{839eb902-0f52-4ccd-9198-86a39c5ac9b8}</destination>
+            <destination>{e2087f17-b00a-4e29-8afb-e00694608758}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{6b6c916b-4269-4688-a071-7f494de07ea1}</destination>
@@ -71,7 +71,7 @@
     </object>
     <object class="Timeline" id="{2b0f2b27-352a-47a0-81c5-7c4e637f504f}">
         <relationship name="modules">
-            <destination>{839eb902-0f52-4ccd-9198-86a39c5ac9b8}</destination>
+            <destination>{e2087f17-b00a-4e29-8afb-e00694608758}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{5def7c35-6fd4-451b-80b2-534311b399c3}">
@@ -91,20 +91,23 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{0f377204-e31e-4de8-bb23-152bfb629f01}"/>
-    <object class="SingleSound" id="{839eb902-0f52-4ccd-9198-86a39c5ac9b8}">
-        <property name="isAsync">
-            <value>true</value>
-        </property>
+    <object class="SingleSound" id="{e2087f17-b00a-4e29-8afb-e00694608758}">
         <property name="length">
-            <value>3.5526757369614512</value>
+            <value>0.62501133786848073</value>
+        </property>
+        <property name="color">
+            <value>Red</value>
         </property>
         <relationship name="audioFile">
-            <destination>{9d02fdb6-3075-44c2-b0f9-eef6a8a7f84e}</destination>
+            <destination>{387f3520-5646-4774-8481-eb38f4397c2e}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{6b6c916b-4269-4688-a071-7f494de07ea1}">
+        <property name="color">
+            <value>Red</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Score Raising</value>
         </property>
         <relationship name="effectChain">
             <destination>{efb86b1a-e0e5-487e-a319-48323cb3504d}</destination>

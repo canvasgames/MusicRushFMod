@@ -63,7 +63,7 @@
     <object class="MarkerTrack" id="{81eb0929-abf0-4330-b8b5-700e80aaf78a}"/>
     <object class="GroupTrack" id="{b48a63cf-9967-481a-aa48-150453de5c22}">
         <relationship name="modules">
-            <destination>{b30c5e44-ef9a-4d68-95c7-1f9bd98eb720}</destination>
+            <destination>{519bab78-d756-4d26-b95c-ea021f925766}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{9d7cfaa4-3fff-43ab-8363-f92106fcc7d1}</destination>
@@ -71,7 +71,7 @@
     </object>
     <object class="Timeline" id="{bb7dbe38-95df-4d11-94bf-1f083e800002}">
         <relationship name="modules">
-            <destination>{b30c5e44-ef9a-4d68-95c7-1f9bd98eb720}</destination>
+            <destination>{519bab78-d756-4d26-b95c-ea021f925766}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{5913ee3e-2bb3-4f23-a07a-91f2933ce12e}">
@@ -91,20 +91,23 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{98287439-a762-4943-aa3a-36904a4bc4aa}"/>
-    <object class="SingleSound" id="{b30c5e44-ef9a-4d68-95c7-1f9bd98eb720}">
-        <property name="isAsync">
-            <value>true</value>
-        </property>
+    <object class="SingleSound" id="{519bab78-d756-4d26-b95c-ea021f925766}">
         <property name="length">
-            <value>3.5526757369614512</value>
+            <value>0.62501133786848073</value>
+        </property>
+        <property name="color">
+            <value>Red</value>
         </property>
         <relationship name="audioFile">
-            <destination>{9d02fdb6-3075-44c2-b0f9-eef6a8a7f84e}</destination>
+            <destination>{387f3520-5646-4774-8481-eb38f4397c2e}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{9d7cfaa4-3fff-43ab-8363-f92106fcc7d1}">
+        <property name="color">
+            <value>Red</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Countdown</value>
         </property>
         <relationship name="effectChain">
             <destination>{f47fca11-50d6-435a-8cd5-81ec3faea16e}</destination>

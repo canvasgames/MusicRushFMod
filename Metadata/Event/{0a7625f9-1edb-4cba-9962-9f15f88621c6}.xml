@@ -95,6 +95,9 @@
         <property name="length">
             <value>4.96875</value>
         </property>
+        <property name="color">
+            <value>Magenta</value>
+        </property>
         <property name="volume">
             <value>3</value>
         </property>
@@ -106,8 +109,11 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{938dbaf6-cad7-4fe6-9df9-87999df243fd}">
+        <property name="color">
+            <value>Magenta</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Sorting Character Loop</value>
         </property>
         <relationship name="effectChain">
             <destination>{fc5f3d07-efc3-4575-93f6-368f72eb93ba}</destination>

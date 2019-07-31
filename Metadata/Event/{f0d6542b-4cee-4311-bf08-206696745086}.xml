@@ -56,7 +56,11 @@
             <destination>{d7e7afe5-818b-4ec8-8013-a9278eab75c9}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{1d00157f-eb02-4dd4-821c-291459aabcfb}"/>
+    <object class="EventAutomatableProperties" id="{1d00157f-eb02-4dd4-821c-291459aabcfb}">
+        <property name="triggerCooldown">
+            <value>20</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{9e5144fa-3129-4925-a855-874f123a194a}"/>
     <object class="GroupTrack" id="{387b5f64-5bf0-4cbd-9405-c42398984eaa}">
         <relationship name="modules">
@@ -101,13 +105,22 @@
         <property name="length">
             <value>0.21888888888888888</value>
         </property>
+        <property name="color">
+            <value>Cyan</value>
+        </property>
         <relationship name="audioFile">
             <destination>{8527166f-459c-4387-a900-126a21a774d2}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{4917ba18-984c-47a8-9935-cae7cd4f8dfd}">
+        <property name="volume">
+            <value>-2</value>
+        </property>
+        <property name="color">
+            <value>Cyan</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Jump</value>
         </property>
         <relationship name="effectChain">
             <destination>{defe1719-4347-4f63-a832-fdc942f917d6}</destination>

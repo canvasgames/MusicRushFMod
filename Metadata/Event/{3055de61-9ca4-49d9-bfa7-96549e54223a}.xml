@@ -60,7 +60,7 @@
     <object class="MarkerTrack" id="{65ce26fb-a9be-404a-baf7-6bec5f991acb}"/>
     <object class="GroupTrack" id="{f255fc88-19c9-4ecf-99d1-be71c3377f27}">
         <relationship name="modules">
-            <destination>{54641d12-453a-4fcf-abf0-e3ce14b6862d}</destination>
+            <destination>{df41b18f-aded-4ed1-a907-beba8ad8f2b5}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{b453b135-71a2-44ce-8961-a21428d23fa2}</destination>
@@ -68,7 +68,7 @@
     </object>
     <object class="Timeline" id="{d923d8a8-acdc-4382-98a4-c395c1527d6b}">
         <relationship name="modules">
-            <destination>{54641d12-453a-4fcf-abf0-e3ce14b6862d}</destination>
+            <destination>{df41b18f-aded-4ed1-a907-beba8ad8f2b5}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{6d069649-7588-4f0c-97f8-9ee7e658c457}">
@@ -88,20 +88,23 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{77f0cb6b-f5b4-4650-90a0-e32f28ff639a}"/>
-    <object class="SingleSound" id="{54641d12-453a-4fcf-abf0-e3ce14b6862d}">
-        <property name="isAsync">
-            <value>true</value>
-        </property>
+    <object class="SingleSound" id="{df41b18f-aded-4ed1-a907-beba8ad8f2b5}">
         <property name="length">
-            <value>0.20839445928770053</value>
+            <value>0.29999999999999999</value>
+        </property>
+        <property name="color">
+            <value>Yellow</value>
         </property>
         <relationship name="audioFile">
-            <destination>{b22c6e86-7672-4737-be7e-d51d8b138f65}</destination>
+            <destination>{2ca63ad0-824d-459f-a352-959f73bb884d}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{b453b135-71a2-44ce-8961-a21428d23fa2}">
+        <property name="color">
+            <value>Yellow</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Coin</value>
         </property>
         <relationship name="effectChain">
             <destination>{ea5199dc-561a-4c94-a7ff-c386296774f7}</destination>

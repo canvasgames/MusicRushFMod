@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{8543e935-a93d-4701-ac44-772a6441ef1d}">
+        <property name="assetPath">
+            <value>SFX/sfx_character_shield_break.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.6264625850340135</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{6d5cf533-07ee-4502-af2c-8df404ecf0c9}</destination>
+        </relationship>
+    </object>
+</objects>

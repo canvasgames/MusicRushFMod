@@ -67,7 +67,7 @@
     <object class="MarkerTrack" id="{8301cc68-7e57-4e5e-8e0d-48503b8b6bba}"/>
     <object class="GroupTrack" id="{edf03c75-29b0-4723-b6d2-e89e85a19041}">
         <relationship name="modules">
-            <destination>{9d30daf8-2847-41f0-80b9-c37b416c0a35}</destination>
+            <destination>{028f2e3b-f94c-445d-888e-0d5bfe05ef86}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{a5f1fa8d-b686-4c37-a9ef-a87995226815}</destination>
@@ -75,7 +75,7 @@
     </object>
     <object class="Timeline" id="{e1bd0938-f3df-4a09-8c1b-9ffa5fa1e2d4}">
         <relationship name="modules">
-            <destination>{9d30daf8-2847-41f0-80b9-c37b416c0a35}</destination>
+            <destination>{028f2e3b-f94c-445d-888e-0d5bfe05ef86}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{5aa12512-b687-47ae-888e-16fde079722b}">
@@ -95,17 +95,26 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{f2be9c2f-e524-4864-9bc2-5186cdc3afdc}"/>
-    <object class="SingleSound" id="{9d30daf8-2847-41f0-80b9-c37b416c0a35}">
+    <object class="SingleSound" id="{028f2e3b-f94c-445d-888e-0d5bfe05ef86}">
         <property name="length">
-            <value>0.12507936507936507</value>
+            <value>0.8295113378684813</value>
+        </property>
+        <property name="timelockedOffset">
+            <value>0.045499999999999999</value>
+        </property>
+        <property name="color">
+            <value>Magenta</value>
         </property>
         <relationship name="audioFile">
-            <destination>{b22c6e86-7672-4737-be7e-d51d8b138f65}</destination>
+            <destination>{36b78b94-7de4-4800-a1a3-0e8f74689448}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{a5f1fa8d-b686-4c37-a9ef-a87995226815}">
+        <property name="color">
+            <value>Magenta</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Coin Falling</value>
         </property>
         <relationship name="effectChain">
             <destination>{2a3e2cab-860a-4515-b8b6-7fe267d63fe0}</destination>

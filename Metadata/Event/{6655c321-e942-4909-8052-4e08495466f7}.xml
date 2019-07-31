@@ -62,12 +62,22 @@
     <object class="EventAutomatableProperties" id="{abd19468-6db7-460d-b640-480ce5b01473}"/>
     <object class="MarkerTrack" id="{38f799f9-3a6e-4579-8a72-18c3398c0f8b}"/>
     <object class="GroupTrack" id="{b761ac60-09ff-4d83-9dcf-eefc4ee45b39}">
+        <relationship name="modules">
+            <destination>{d9c0365b-64ad-4af3-833a-28629fc3e214}</destination>
+        </relationship>
         <relationship name="mixerGroup">
             <destination>{1ea4f046-015f-4093-bd84-0bd84e307d62}</destination>
         </relationship>
     </object>
-    <object class="Timeline" id="{7533cde6-0c5c-4749-b9fa-4379682fdec1}"/>
+    <object class="Timeline" id="{7533cde6-0c5c-4749-b9fa-4379682fdec1}">
+        <relationship name="modules">
+            <destination>{d9c0365b-64ad-4af3-833a-28629fc3e214}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerMaster" id="{b8c6c445-150d-43e7-a99e-83b605895337}">
+        <relationship name="modulators">
+            <destination>{c2fd29f4-e9ab-4adb-854a-dc2f1575de02}</destination>
+        </relationship>
         <relationship name="effectChain">
             <destination>{963d06a8-2743-4a35-968d-04f94c684b1b}</destination>
         </relationship>
@@ -84,9 +94,23 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{842f81f5-11d9-4f3b-953d-26f2ba372adf}"/>
+    <object class="SingleSound" id="{d9c0365b-64ad-4af3-833a-28629fc3e214}">
+        <property name="length">
+            <value>1.6264625850340135</value>
+        </property>
+        <property name="color">
+            <value>Red</value>
+        </property>
+        <relationship name="audioFile">
+            <destination>{8543e935-a93d-4701-ac44-772a6441ef1d}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerGroup" id="{1ea4f046-015f-4093-bd84-0bd84e307d62}">
+        <property name="color">
+            <value>Red</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Shield Break</value>
         </property>
         <relationship name="effectChain">
             <destination>{0ce03395-f20c-4f28-921e-1ef3a69b29de}</destination>
@@ -97,6 +121,14 @@
         <relationship name="output">
             <destination>{b8c6c445-150d-43e7-a99e-83b605895337}</destination>
         </relationship>
+    </object>
+    <object class="RandomizerModulator" id="{c2fd29f4-e9ab-4adb-854a-dc2f1575de02}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>pitch</value>
+        </property>
+        <property name="amount">
+            <value>4.16666698</value>
+        </property>
     </object>
     <object class="MixerBusEffectChain" id="{963d06a8-2743-4a35-968d-04f94c684b1b}">
         <relationship name="effects">

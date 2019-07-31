@@ -108,6 +108,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{589c0ffa-075a-477d-8354-1009b452f720}">
+        <property name="color">
+            <value>Cyan</value>
+        </property>
         <property name="name">
             <value>Spike</value>
         </property>

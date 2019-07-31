@@ -56,7 +56,7 @@
             <destination>{e0465a6c-9acc-48fe-9f50-4d30d42d7214}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{d7e7afe5-818b-4ec8-8013-a9278eab75c9}</destination>
+            <destination>{f039c054-b8bb-4ce8-a90f-45d2bbf0dfd2}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{64570d08-fe87-435b-826f-c787799726d3}"/>
@@ -98,13 +98,19 @@
         <property name="length">
             <value>3.5526757369614512</value>
         </property>
+        <property name="color">
+            <value>Yellow</value>
+        </property>
         <relationship name="audioFile">
             <destination>{9d02fdb6-3075-44c2-b0f9-eef6a8a7f84e}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{3c594bed-081a-4b63-9766-677c0a10be8e}">
+        <property name="color">
+            <value>Yellow</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>New Highscore</value>
         </property>
         <relationship name="effectChain">
             <destination>{88585f17-9a4d-4f25-96ba-0cad13bae84b}</destination>

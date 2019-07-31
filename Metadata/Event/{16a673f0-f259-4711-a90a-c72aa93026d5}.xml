@@ -5,7 +5,7 @@
             <value>sfx_ui_spin_disk_reward</value>
         </property>
         <property name="outputFormat">
-            <value>0</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{b1525e37-0944-42d5-9542-777439b2c3be}</destination>
@@ -56,14 +56,14 @@
             <destination>{238120c6-7ced-4808-ba0f-dbf4bd04a886}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{d7e7afe5-818b-4ec8-8013-a9278eab75c9}</destination>
+            <destination>{f039c054-b8bb-4ce8-a90f-45d2bbf0dfd2}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{bcc5d0a3-81a6-43b3-9773-4808ae2bf7cb}"/>
     <object class="MarkerTrack" id="{63e47409-6f2b-4e3a-8114-7cc77542af3f}"/>
     <object class="GroupTrack" id="{65214c7c-4ddb-4d70-9002-01563f916800}">
         <relationship name="modules">
-            <destination>{33dc5f09-c132-498b-8746-1e49fd6f5e8f}</destination>
+            <destination>{b33a265e-831b-4d59-bb75-5d5244a916ef}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{81df2e66-f31f-4989-9c12-10d3b94910ae}</destination>
@@ -71,7 +71,7 @@
     </object>
     <object class="Timeline" id="{c9008007-d389-4562-8762-315a5b45c959}">
         <relationship name="modules">
-            <destination>{33dc5f09-c132-498b-8746-1e49fd6f5e8f}</destination>
+            <destination>{b33a265e-831b-4d59-bb75-5d5244a916ef}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{ae8e38fa-0bda-41c8-abb2-33c8d18cc7d0}">
@@ -91,17 +91,23 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{238120c6-7ced-4808-ba0f-dbf4bd04a886}"/>
-    <object class="SingleSound" id="{33dc5f09-c132-498b-8746-1e49fd6f5e8f}">
+    <object class="SingleSound" id="{b33a265e-831b-4d59-bb75-5d5244a916ef}">
         <property name="length">
-            <value>1.1755102040816328</value>
+            <value>3.270340136054422</value>
+        </property>
+        <property name="color">
+            <value>Yellow</value>
         </property>
         <relationship name="audioFile">
-            <destination>{ddcfbd7b-5d3b-4b4a-930f-91cc320560ac}</destination>
+            <destination>{9d02fdb6-3075-44c2-b0f9-eef6a8a7f84e}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{81df2e66-f31f-4989-9c12-10d3b94910ae}">
+        <property name="color">
+            <value>Yellow</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Reward</value>
         </property>
         <relationship name="effectChain">
             <destination>{e922ffc1-4808-450d-9bdf-584577eed9f4}</destination>

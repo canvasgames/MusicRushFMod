@@ -98,13 +98,22 @@
         <property name="length">
             <value>1.3736054421768706</value>
         </property>
+        <property name="color">
+            <value>Red</value>
+        </property>
         <relationship name="audioFile">
             <destination>{8d929923-d7dd-4ac4-95b7-d95646761d38}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{d1971e64-85a1-4186-8889-303f22e5cedc}">
+        <property name="volume">
+            <value>-1</value>
+        </property>
+        <property name="color">
+            <value>Red</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Explosion</value>
         </property>
         <relationship name="effectChain">
             <destination>{f8e43cbc-d87b-4e8d-bb05-8a262c6b876a}</destination>

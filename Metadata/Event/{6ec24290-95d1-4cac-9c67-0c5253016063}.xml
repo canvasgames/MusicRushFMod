@@ -85,8 +85,11 @@
     </object>
     <object class="MixerBusPanner" id="{1d643986-849b-4465-a545-d75ed4f022e7}"/>
     <object class="EventMixerGroup" id="{ffddf9c4-db3f-4bb4-bb95-a1c66417aabb}">
+        <property name="color">
+            <value>Red</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Wall Collided</value>
         </property>
         <relationship name="effectChain">
             <destination>{dff503e6-facd-4f4f-85b3-c0aef828e047}</destination>
