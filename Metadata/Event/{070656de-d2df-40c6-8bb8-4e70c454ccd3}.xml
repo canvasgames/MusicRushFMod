@@ -62,12 +62,22 @@
     <object class="EventAutomatableProperties" id="{ec09a39b-5804-4dfb-9d5b-808aff0e65f0}"/>
     <object class="MarkerTrack" id="{5cd6852d-a046-44f1-a4c6-60c7f3b6408e}"/>
     <object class="GroupTrack" id="{d7d296d5-284f-4265-b2a0-6d7e8e735848}">
+        <relationship name="modules">
+            <destination>{8345702b-1359-46af-a139-7a9bb52c3cb9}</destination>
+        </relationship>
         <relationship name="mixerGroup">
             <destination>{418ca5df-fd81-4f1e-93ac-9fd7483b2865}</destination>
         </relationship>
     </object>
-    <object class="Timeline" id="{69a02c63-9ba8-43db-aa45-fc29fd93b20f}"/>
+    <object class="Timeline" id="{69a02c63-9ba8-43db-aa45-fc29fd93b20f}">
+        <relationship name="modules">
+            <destination>{8345702b-1359-46af-a139-7a9bb52c3cb9}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerMaster" id="{f6e3bf4d-261b-49f6-98b7-61d4655b6678}">
+        <relationship name="modulators">
+            <destination>{2896bdc9-5e80-4f2f-a826-192aa3eaf5a1}</destination>
+        </relationship>
         <relationship name="effectChain">
             <destination>{c042dbf1-62ca-4380-9968-2c7a4da6d288}</destination>
         </relationship>
@@ -84,9 +94,23 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{72769052-6a4e-4733-88d5-714b468aa2a4}"/>
+    <object class="SingleSound" id="{8345702b-1359-46af-a139-7a9bb52c3cb9}">
+        <property name="length">
+            <value>0.53333333333333333</value>
+        </property>
+        <property name="color">
+            <value>Red</value>
+        </property>
+        <relationship name="audioFile">
+            <destination>{1e785672-ae4f-4b03-a6fd-5e4ad39d45b4}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerGroup" id="{418ca5df-fd81-4f1e-93ac-9fd7483b2865}">
+        <property name="color">
+            <value>Red</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Hole Fall</value>
         </property>
         <relationship name="effectChain">
             <destination>{ee7cd754-0cc5-47fd-8d89-8d5a264c8f33}</destination>
@@ -97,6 +121,14 @@
         <relationship name="output">
             <destination>{f6e3bf4d-261b-49f6-98b7-61d4655b6678}</destination>
         </relationship>
+    </object>
+    <object class="RandomizerModulator" id="{2896bdc9-5e80-4f2f-a826-192aa3eaf5a1}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>pitch</value>
+        </property>
+        <property name="amount">
+            <value>4.16666698</value>
+        </property>
     </object>
     <object class="MixerBusEffectChain" id="{c042dbf1-62ca-4380-9968-2c7a4da6d288}">
         <relationship name="effects">

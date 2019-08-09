@@ -101,6 +101,9 @@
         <property name="length">
             <value>0.91548752834467118</value>
         </property>
+        <property name="color">
+            <value>Green</value>
+        </property>
         <relationship name="sounds">
             <destination>{0a12d90e-adf0-4c51-a68d-291d4265aad6}</destination>
             <destination>{1b2f9a63-ccb3-40a5-8269-5de0867cfeef}</destination>
@@ -109,7 +112,7 @@
     </object>
     <object class="EventMixerGroup" id="{589c0ffa-075a-477d-8354-1009b452f720}">
         <property name="color">
-            <value>Cyan</value>
+            <value>Green</value>
         </property>
         <property name="name">
             <value>Spike</value>

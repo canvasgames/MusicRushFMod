@@ -62,12 +62,22 @@
     <object class="EventAutomatableProperties" id="{c1aa7097-5a2a-4653-b70b-51fda162b030}"/>
     <object class="MarkerTrack" id="{5fc1e695-220e-40b1-8717-05819de14d88}"/>
     <object class="GroupTrack" id="{481b43c5-1ef0-4a75-a8cd-ef7c7317acf2}">
+        <relationship name="modules">
+            <destination>{63f5b1ef-daf9-4b71-a6f0-3c8d28b42762}</destination>
+        </relationship>
         <relationship name="mixerGroup">
             <destination>{d8ce3cbb-9349-448a-9aed-3454cb439e19}</destination>
         </relationship>
     </object>
-    <object class="Timeline" id="{aa5fdb8a-f392-4c77-a4cf-12cb3223b194}"/>
+    <object class="Timeline" id="{aa5fdb8a-f392-4c77-a4cf-12cb3223b194}">
+        <relationship name="modules">
+            <destination>{63f5b1ef-daf9-4b71-a6f0-3c8d28b42762}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerMaster" id="{256f3687-5b37-4f4e-81c8-1294dbe56955}">
+        <relationship name="modulators">
+            <destination>{9848de65-dc2b-4ef1-bcbf-648624d28395}</destination>
+        </relationship>
         <relationship name="effectChain">
             <destination>{073fb339-0cf3-482e-af52-b32552c5303e}</destination>
         </relationship>
@@ -84,9 +94,23 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{9b915977-7b4f-415c-8ad8-6f7a2ee94729}"/>
+    <object class="SingleSound" id="{63f5b1ef-daf9-4b71-a6f0-3c8d28b42762}">
+        <property name="length">
+            <value>0.53333333333333333</value>
+        </property>
+        <property name="color">
+            <value>Red</value>
+        </property>
+        <relationship name="audioFile">
+            <destination>{1e785672-ae4f-4b03-a6fd-5e4ad39d45b4}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerGroup" id="{d8ce3cbb-9349-448a-9aed-3454cb439e19}">
+        <property name="color">
+            <value>Red</value>
+        </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Wall Appear</value>
         </property>
         <relationship name="effectChain">
             <destination>{e5179b62-00f0-4c4e-8c47-4be435cc554e}</destination>
@@ -97,6 +121,14 @@
         <relationship name="output">
             <destination>{256f3687-5b37-4f4e-81c8-1294dbe56955}</destination>
         </relationship>
+    </object>
+    <object class="RandomizerModulator" id="{9848de65-dc2b-4ef1-bcbf-648624d28395}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>pitch</value>
+        </property>
+        <property name="amount">
+            <value>4.16666698</value>
+        </property>
     </object>
     <object class="MixerBusEffectChain" id="{073fb339-0cf3-482e-af52-b32552c5303e}">
         <relationship name="effects">
