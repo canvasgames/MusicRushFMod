@@ -109,6 +109,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{6b6c916b-4269-4688-a071-7f494de07ea1}">
+        <property name="volume">
+            <value>-1.5</value>
+        </property>
         <property name="color">
             <value>Red</value>
         </property>
